@@ -10,9 +10,7 @@ public class Film {
 	private Sjanger sjanger;
 	private String filmselskap;
 	
-	public enum Sjanger{
-		
-	}
+	
 	
 	public Film() {
 		this.filmnr = 0;
