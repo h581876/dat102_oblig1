@@ -97,6 +97,11 @@ public class Film {
 				&& Objects.equals(tittel, other.tittel);
 	}
 	
+	@Override
+	public String toString() {
+	    return "Filmnummer: " + filmnr + ", Tittel: " + tittel + ", Produsent: " + produsent + ", År: " + lansering + ", Sjanger: " + sjanger + ", Filmselskap: " + filmselskap;
+	}
+
 	
 	
 	
