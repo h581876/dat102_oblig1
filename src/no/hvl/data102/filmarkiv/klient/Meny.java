@@ -34,7 +34,7 @@ public class Meny {
 				int filmnr = Integer.parseInt(lesInput("Filmnummer: "));
 				Film film = filmarkiv.finnFilm(filmnr); 
 				if (film != null) {
-					tekstgr.skrivUtFilm(film); // Vis filmen med Tekstgrensesnitt
+					tekstgr.skrivUtFilm(film); 
 				} else {
 					System.out.println("Fant ikke filmen.");
 				}

@@ -14,10 +14,9 @@ class Filmarkiv2Test {
     private Filmarkiv2 filmarkiv;
 
     @BeforeEach
-    void setup() {
+    void oppsett() {
         filmarkiv = new Filmarkiv2(0, null);
 
-        // Legg til noen testdata
         filmarkiv.leggTilFilm(new Film(1, "Produsent1", "Film1", 2023, Sjanger.ACTION, "Selskap1"));
         filmarkiv.leggTilFilm(new Film(2, "Produsent2", "Film2", 2022, Sjanger.DRAMA, "Selskap2"));
         filmarkiv.leggTilFilm(new Film(3, "Produsent1", "Film3", 2021, Sjanger.ACTION, "Selskap3"));
